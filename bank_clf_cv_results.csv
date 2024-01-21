@@ -1,0 +1,8 @@
+,model,best_hyperparams,f1(mean),f1(std),roc-auc(mean),roc-auc(std)
+5,Random Forest,"{'model__class_weight': 'balanced', 'model__max_depth': None, 'model__min_samples_leaf': 2, 'model__min_samples_split': 5, 'model__n_estimators': 100, 'model__random_state': 42}",0.6084857992147844,0.015339785901698684,0.9331095177357106,0.0032590353056108647
+6,GradientBoosting,"{'model__learning_rate': 0.2, 'model__max_depth': 5, 'model__n_estimators': 150, 'model__random_state': 42}",0.5489107354725256,0.016884224178157783,0.9312329340218838,0.0023382450891105484
+2,Decision Tree,"{'model__criterion': 'entropy', 'model__max_depth': 10, 'model__min_samples_leaf': 4, 'model__min_samples_split': 10}",0.5015896678988889,0.022988872085048507,0.879243496819007,0.009889996168553893
+0,Logistic Regression,"{'model__C': 1, 'model__penalty': 'l1'}",0.43018956622029425,0.021517534512708564,0.890439258310959,0.006845140338485307
+1,K-Nearest Neighbors,"{'model__n_neighbors': 3, 'model__weights': 'distance'}",0.4297068466038321,0.020425545541894154,0.788785111854532,0.011144883664291337
+4,SVM,"{'model__C': 1, 'model__gamma': 'scale', 'model__kernel': 'rbf'}",0.41067502186278937,0.017042744852255726,0.8757783444779434,0.011102768158594335
+3,Gaussian Naive Bayes,{},0.4103419120989263,0.020974988243855814,0.7954043760452624,0.01512309068622934
